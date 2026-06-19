@@ -44,7 +44,6 @@
     "public/packs": true,
     "tmp": true
   },
-  "files.hotExit": "off",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -60,22 +59,12 @@
   "notebook.lineNumbers": "on",
   "notebook.markup.fontSize": 13,
   "python.defaultInterpreterPath": "~/.pyenv/shims/python",
-  "python.formatting.provider": "yapf",
   "python.languageServer": "Pylance",
-  "python.linting.enabled": false,
-  "python.linting.flake8Enabled": false,
-  "python.linting.pylintEnabled": false,
   "python.terminal.activateEnvironment": false,
-  "ruby.lint": {
-    "rubocop": true
-  },
   "search.exclude": {
     // Inherits all glob patterns from the `files.exclude` setting.
     "**/.venv": true
   },
-  "telemetry.telemetryLevel": "off",
-  "window.restoreWindows": "none",
-  "window.newWindowDimensions": "maximized",
   "workbench.editor.enablePreview": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "ui",
